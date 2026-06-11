@@ -54,12 +54,12 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.94);backdrop
 
 /* QUICK INFO */
 .quick{background:#f8fbff;padding:3rem 1.5rem}
-.quick-inner{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.quick-inner{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
 .q-card{background:#fff;border:1px solid #ddedf7;border-radius:var(--radius);padding:1.25rem;display:flex;gap:.85rem;align-items:flex-start}
 .q-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
 .bg-sky{background:var(--sky)}.bg-green{background:var(--green-light)}.bg-yellow{background:var(--yellow)}.bg-petal{background:var(--petal)}
 .q-card h4{font-family:'Nunito',sans-serif;font-weight:700;font-size:.85rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.2rem}
-.q-card p{font-size:.9rem;font-weight:500}
+.q-card p{font-size:.85rem;font-weight:500;word-break:break-word;white-space:normal}
 .q-card a{color:var(--sky-dark);text-decoration:none}
 
 /* ABOUT */
@@ -158,7 +158,7 @@ footer a{color:rgba(255,255,255,.7)}
   <div class="quick-inner">
     <div class="q-card">
       <div class="q-icon bg-sky">📍</div>
-      <div><h4>Адреса</h4><p>м. Лисичанськ, ДНЗ №3 «Дюймовочка»</p></div>
+      <div><h4>Адреса</h4><p>м. Лисичанськ,<br>ДНЗ №3 «Дюймовочка»</p></div>
     </div>
     <div class="q-card">
       <div class="q-icon bg-green">📞</div>
@@ -170,7 +170,7 @@ footer a{color:rgba(255,255,255,.7)}
     </div>
     <div class="q-card">
       <div class="q-icon bg-petal">🕐</div>
-      <div><h4>Робочий час</h4><p>Пн–Пт: 07:00 – 18:00</p></div>
+      <div><h4>Робочий час</h4><p>Пн–Пт: 7:00 - 18:00</p></div>
     </div>
   </div>
 </div>
